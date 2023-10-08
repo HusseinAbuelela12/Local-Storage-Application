@@ -1,0 +1,57 @@
+.btn {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #fa2e2e;
+    border: 1px solid #fa2e2e;
+    margin-left: 10px;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container .form {
+    margin-top: 15px;
+    text-align: center;
+    flex-basis: 100%;
+    min-width: 500px;
+    border-radius: 5px;
+    min-height: 70px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.container .form .input {
+    font-size: 18px;
+    width: 350px;
+    height: 30px;
+    border: 1px solid #dfdede;
+    border-radius: 4px;
+    padding: 0 10px;
+    outline: none;
+}
+
+.container .tasks {
+    text-align: center;
+    padding: 20px 0;
+    flex-basis: 100%;
+    margin-top: 20px;
+    min-width: 500px;
+    height: 20px auto;
+    border-radius: 5px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
